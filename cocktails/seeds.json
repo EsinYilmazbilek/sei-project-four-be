@@ -1,0 +1,18 @@
+[
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Frozen Aperol Spritz",
+      "image": "https://i.imgur.com/pBoA9VU.jpg",
+      "about": "It is a refreshing hot summer day drink that will make you feel like your backyard is an Italian courtyard.",
+      "serves": 4,
+      "ingredients": {
+        "produce": "1 Grapefruit or Orange slices, 1 cup Strawberries, frozen", 
+        "drinks": "350 ml Orange juice, frozen",
+        "spirit": "1 bottle Prosecco or champagne",
+        "other": "350 ml Aperol (frozen)"
+      },
+      "recipe": ["Freeze the Aperol and orange juice. Pour the liquids in ice cube trays and place in the freezer at least 4-6 hours ahead of time.",  "Blend! In the base of your blender, combine the frozen Aperol and orange juice cubes, frozen strawberries, prosecco (or champagne) and ice. Blend just until smooth and no chunks of ice remain, usually less than 30 seconds.", "Garnish and Enjoy! Pour into your favourite cocktail glasses and garnish with orange and grapefruit slices."]
+    }
+  }
+]
