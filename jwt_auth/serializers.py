@@ -5,7 +5,7 @@ from django.contrib.auth.hashers import make_password
 from django.core.exceptions import ValidationError
 from django.conf import settings
 
-from cocktails.models import Cocktail, Comment, CommentLike, Save
+from cocktails.models import Cocktail, Comment, Save
 
 User = get_user_model()
 
@@ -55,18 +55,18 @@ class NestedSaveSerializer(serializers.ModelSerializer):
     class Meta:
         model = Save
         fields = '__all__'
-class NestedCommentLikeSerializer(serializers.ModelSerializer):
-    comment = NestedCommentSerializer()
+# class NestedCommentLikeSerializer(serializers.ModelSerializer):
+#     comment = NestedCommentSerializer()
     
-    class Meta:
-      model = CommentLike
-      fields = '__all__'
+#     class Meta:
+#       model = CommentLike
+#       fields = '__all__'
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
     comments_posted = NestedCommentSerializer(many=True)
     saved_cocktail = NestedSaveSerializer(many=True)
-    liked_comment = NestedCommentLikeSerializer(many=True)
+    # liked_comment = NestedCommentLikeSerializer(many=True)
     class Meta:
         model = User
         fields = ('id', 'username', 'comments_posted', 'saved_cocktail', 'liked_comment')

@@ -1,4 +1,6 @@
+from email.policy import default
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
 
@@ -19,6 +21,7 @@ class Cocktail(models.Model):
 class Comment(models.Model):
     ''' Comment Model '''
     content = models.TextField(max_length=300)
+    liked_by = ArrayField(models.CharField(max_length=10, blank=True), default=list, null=True)
     created_at = models.DateField(auto_now_add=True)
     cocktail = models.ForeignKey(
         Cocktail,
@@ -50,18 +53,18 @@ class Save(models.Model):
   def __str__(self):
     return f'Save {self.id} on cocktail {self.cocktail}'
 
-class CommentLike(models.Model):
-  '''Comments like model'''
-  created_at = models.DateTimeField(auto_now_add=True)
-  comment = models.ForeignKey(
-    Comment,
-    related_name='liked_by',
-    on_delete=models.CASCADE 
-  )
-  owner = models.ForeignKey(
-    'jwt_auth.User',
-    related_name='liked_comment',
-    on_delete=models.CASCADE
-  )
-  def __str__(self):
-    return f'Like {self.id} on cocktail {self.comment}'
+# class CommentLike(models.Model):
+#   '''Comments like model'''
+#   created_at = models.DateTimeField(auto_now_add=True)
+#   comment = models.ForeignKey(
+#     Comment,
+#     related_name='liked_by',
+#     on_delete=models.CASCADE 
+#   )
+#   owner = models.ForeignKey(
+#     'jwt_auth.User',
+#     related_name='liked_comment',
+#     on_delete=models.CASCADE
+#   )
+#   def __str__(self):
+#     return f'Like {self.id} on cocktail {self.comment}'

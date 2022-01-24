@@ -3,7 +3,7 @@ from django.contrib.auth import get_user_model
 
 
 
-from .models import Cocktail, Comment, Save, CommentLike
+from .models import Cocktail, Comment, Save
 User = get_user_model()
 
 class NestedUserSerializer(serializers.ModelSerializer):
@@ -35,23 +35,23 @@ class NestedSaveSerializer(serializers.ModelSerializer):
     model = Save
     fields = '__all__'
 
-class CommentLikeSerializer(serializers.ModelSerializer):
-  '''comments like serializer'''
-  class Meta:
-    model = CommentLike
-    fields = '__all__'
+# class CommentLikeSerializer(serializers.ModelSerializer):
+#   '''comments like serializer'''
+#   class Meta:
+#     model = CommentLike
+#     fields = '__all__'
 
-class NestedCommentLikeSerializer(serializers.ModelSerializer):
-  '''Nested comment like serializer'''
-  owner = NestedCommentSerializer()
+# class NestedCommentLikeSerializer(serializers.ModelSerializer):
+#   '''Nested comment like serializer'''
+#   owner = NestedCommentSerializer()
 
-  class Meta:
-    model = CommentLike
-    fields = '__all__'
+#   class Meta:
+#     model = CommentLike
+#     fields = '__all__'
 
 class CommentSerializer(serializers.ModelSerializer):
     ''' Serializer for Comments'''
-    liked_by = NestedCommentLikeSerializer(many=True, read_only=True)
+    # liked_by = NestedCommentLikeSerializer(many=True, read_only=True)
     class Meta:
         model = Comment
         fields = '__all__'
