@@ -28,7 +28,7 @@
         "spirit": ["240 ml Coconut Rum"],
         "other": ["Crushed Ice"]
       },
-      "recipe": ["Turn on your vacation playlist, then add rum, grapefruit juice, and pineapple juice into a shaker. Muddle it until you can not muddle it anymore.", "Add freshly squeezed guava juice to the mixture and shake with ice.", "Pour into two glasses, add 60 ml of coconut juice to each glass, and top with crushed ice. Finish things off with a quarter slice of guava and a quarter chunk of juicy pineapple for garnish.", "Take a taste, close your eyes, and pretend you are on a beach…sipping on something strong!"]
+      "recipe": ["Turn on your vacation playlist, then add rum, grapefruit juice, and pineapple juice into a shaker. Stir it until you can not stir it anymore.", "Add freshly squeezed guava juice to the mixture and shake with ice.", "Pour into two glasses, add 60 ml of coconut juice to each glass, and top with crushed ice. Finish things off with a quarter slice of guava and a quarter chunk of juicy pineapple for garnish.", "Take a taste, close your eyes, and pretend you are on a beach…sipping on something strong!"]
     }
   },
   {
@@ -84,7 +84,7 @@
     "fields": {
       "name": "Mango Sunrise Pina Colada",
       "image": "https://i.imgur.com/0ijLlJb.jpg",
-      "about": "This cocktail is a variation on the classic piña colada, but the twist here is in the presentation. ",
+      "about": "This cocktail is a variation on the classic piña colada, but the twist here is in the presentation.",
       "serves": 2,
       "ingredients": {
         "produce": ["120 ml Mango Juice", "2 Slices of Pineapple"],
@@ -93,6 +93,54 @@
         "other": ["2 tbsp Coconut cream", "2 tbsp Grenadine"]
       },
       "recipe": ["Add coconut rum, mango and pineapple juices to a cocktail shaker filled halfway with ice. Shake well to combine and chill.", "Pour over ice into a cocktail glass.", "Add coconut cream slowly by pouring over the back of a spoon.", "Add grenadine by pouring slowly over top."]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Fig & Vanilla Vodka Cocktail",
+      "image": "https://i.imgur.com/g5wgtM8.jpg",
+      "about": "Fig cocktail with sparkling rosé with fresh fig and thyme for a fun vodka party drink.",
+      "serves": 2,
+      "ingredients": {
+        "produce": ["2 fresh figs", "2 smidge pure vanilla paste"],
+        "drinks": ["1 Lemon juice"],
+        "spirit": ["120 ml Maui Vodka", "2 splashes of sparkling Rosé"],
+        "other": ["7 ml Honey syrup", "4 dashes Orange syrup (optional)", "Fig and thyme sprigs for garnish"]
+      },
+      "recipe": ["Add fig, pure vanilla paste and lemon juice to a cocktail tin and gently stir.", "Add Maui Vodka, honey syrup, orange bitters and ice to the cocktail tin.", "Shake vigorously until the outside of the tin is chilled. Strain into a glass with fresh ice.", "Top with a splash of sparkling rosé. Garnish with fresh fig and thyme."]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Spicy Gingered Mango Margarita",
+      "image": "https://i.imgur.com/Pok6sz5.jpg",
+      "about": "Fig cocktail with sparkling rosé with fresh fig and thyme for a fun vodka party drink.",
+      "serves": 2,
+      "ingredients": {
+        "produce": ["2/3 cup fresh or frozen mango chunks", "2 teaspoons roughly chopped ginger", "2 jalapeño slice"],
+        "drinks": ["2/3 cup 100% mango juice", "Juice of 1 lime"],
+        "spirit": ["120 ml silver Tequila"],
+        "other": ["Sparkling water for topping", "2/4 cup kosher or margarita salt", "2 teaspoons chipotle chili powder"]
+      },
+      "recipe": ["Combine the salt and chili powder in a shallow bowl.", "Run a lime wedge around the rim of your glass and coat in chili salt.", "Combine the mango juice, mango chunks, and ginger in a cocktail shaker.", "Stir the mango and ginger together until the mango is mashed. Add the tequila, lime juice, and jalapeños. Fill with ice and shake until combined. Strain into your prepared glass.", "Top with sparkling water, if desired. Serve with limes."]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Blueberry Lemon Vodka Spritz",
+      "image": "https://i.imgur.com/s9sylMZ.jpg",
+      "about": "A refreshing, summery cocktail made with blueberries, lemons, simple syrup, vodka, and club soda.",
+      "serves": 4,
+      "ingredients": {
+        "produce": ["1 cup blueberries", "1 lemon, thinly sliced and de-seeded, plus more for garnish"],
+        "drinks": ["60 ml simple syrup", "450 ml sparkling lemon water"],
+        "spirit": ["240 ml Vodka"],
+        "other": ["Rosemary for garnish"]
+      },
+      "recipe": ["In a pitcher, stir the blueberries, lemons, and simple syrup until the lemons release their oils and about half of the blueberries are smashed.", "Stir in the vodka. Cover and place in the fridge until you are ready to serve.", "Right before serving, stir in the sparkling lemon water", "Pour over ice and garnish with lemons and sprigs of rosemary."]
     }
   }
 ]
