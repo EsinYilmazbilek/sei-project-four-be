@@ -10,8 +10,8 @@ from rest_framework.generics import (
 )
 
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
-from .models import Cocktail, Comment
-from .serializers import CocktailSerializer, CommentSerializer
+from .models import Cocktail, Comment, CommentLike, Save
+from .serializers import CocktailSerializer, CommentSerializer, SaveSerializer, CommentLikeSerializer
 from .permissions import isOwnerOrReadOnly
 
 class CocktailListView(ListCreateAPIView):
@@ -37,3 +37,23 @@ class CommentDetailView(DestroyAPIView):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
     permission_classes = (isOwnerOrReadOnly, )
+
+class SaveListView(CreateAPIView):
+    queryset = Save.objects.all()
+    serializer_class = SaveSerializer
+    permission_classes = (IsAuthenticatedOrReadOnly, )
+
+class SaveDetailView(DestroyAPIView):
+  queryset = Save.objects.all()
+  serializer_class = SaveSerializer
+  permission_classes = (isOwnerOrReadOnly, )
+
+class CommentLikeListView(CreateAPIView):
+    queryset = CommentLike.objects.all()
+    serializer_class = CommentLikeSerializer
+    permission_classes = (IsAuthenticatedOrReadOnly, )
+
+class CommentLikeDetailView(DestroyAPIView):
+  queryset = CommentLike.objects.all()
+  serializer_class = CommentLikeSerializer
+  permission_classes = (isOwnerOrReadOnly, )

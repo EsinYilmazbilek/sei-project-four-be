@@ -7,12 +7,76 @@
       "about": "It is a refreshing hot summer day drink that will make you feel like your backyard is an Italian courtyard.",
       "serves": 4,
       "ingredients": {
-        "produce": "1 Grapefruit or Orange slices, 1 cup Strawberries, frozen", 
-        "drinks": "350 ml Orange juice, frozen",
-        "spirit": "1 bottle Prosecco or champagne",
-        "other": "350 ml Aperol (frozen)"
+        "produce": ["1 Grapefruit or Orange slices", "1 cup Strawberries, frozen"], 
+        "drinks": ["350 ml Orange juice, frozen"],
+        "spirit": ["1 bottle Prosecco or champagne"],
+        "other": ["350 ml Aperol (frozen)"]
       },
       "recipe": ["Freeze the Aperol and orange juice. Pour the liquids in ice cube trays and place in the freezer at least 4-6 hours ahead of time.",  "Blend! In the base of your blender, combine the frozen Aperol and orange juice cubes, frozen strawberries, prosecco (or champagne) and ice. Blend just until smooth and no chunks of ice remain, usually less than 30 seconds.", "Garnish and Enjoy! Pour into your favourite cocktail glasses and garnish with orange and grapefruit slices."]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Tropical Crush Cocktail",
+      "image": "https://i.imgur.com/3POqegz.jpg",
+      "about": "Perfect for sitting back and sipping on all summer long, create this five-ingredient cocktail in just a few minutes.",
+      "serves": 4,
+      "ingredients": {
+        "produce": ["1 Grapefruit, sliced"],
+        "drinks": ["240 ml Guava Juice", "240 ml Pineapple Juice", "240 ml Coconut Juice"],
+        "spirit": ["240 ml Coconut Rum"],
+        "other": ["Crushed Ice"]
+      },
+      "recipe": ["Turn on your vacation playlist, then add rum, grapefruit juice, and pineapple juice into a shaker. Muddle it until you can not muddle it anymore.", "Add freshly squeezed guava juice to the mixture and shake with ice.", "Pour into two glasses, add 60 ml of coconut juice to each glass, and top with crushed ice. Finish things off with a quarter slice of guava and a quarter chunk of juicy pineapple for garnish.", "Take a taste, close your eyes, and pretend you are on a beach…sipping on something strong!"]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Frozen Gin and Tonic",
+      "image": "https://i.imgur.com/4kaiGqn.jpg",
+      "about": "Made with lime juice, gin, tonic, and a little cucumber, this drink is refreshing, full of flavour and easy to make!",
+      "serves": 2,
+      "ingredients": {
+        "produce": ["¼ cup cucumber"],
+        "drinks": ["120 ml Tonic water"],
+        "spirit": ["120 ml Gin"],
+        "other": ["60 ml lime juice", "60 ml syrup", "2 ½ cups ice"]
+      },
+      "recipe": ["First, squeeze the limes for the juice and slice about five 1/2″ thick pieces of cucumber. Using fresh lime juice is a must when creating cocktails.",  "Next, add all of the ingredients into a blender and blend until smooth! It is that easy!", "Serve in an old-fashioned glass with a straw and a lime wedge."]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Lemon Lavender Gin Spritz",
+      "image": "https://i.imgur.com/wfDOduW.jpg",
+      "about": "Gin, lavender, and lemonade are the base of this drink - light and delicious. A float of butterfly pea pollen over top gives this a dramatic and festive flair!",
+      "serves": 2,
+      "ingredients": {
+        "produce": ["2 tbsp Culinary lavender, dried", "Lavender sprigs", "1 Lemon, sliced"],
+        "drinks": ["180 ml Lemonade", "1 small bottle Sparkling water", "120 ml water"],
+        "spirit": ["120 ml Gin"],
+        "other": ["60 ml Lavender syrup", "¾ cup sugar", "1 cup ice"]
+      },
+      "recipe": ["Combine the sugar and water in a small saucepan and set over medium heat. Bring to a boil, and then reduce the heat to a simmer, and cook for 5 minutes or until the sugar is completely dissolved.",  "Stir in the dried lavender and remove the pan from the heat. Allow the syrup to cool to room temperature (the lavender will steep in the hot syrup as it cools).", "Strain out the lavender and store cooled syrup in the fridge.", "Fill two glasses with ice.", "To a shaker filled with ice, add the gin, lavender syrup, and lemonade.", "Shake vigorously to combine and chill all the ingredients. Strain into the glasses filled with ice. Top with a splash or two of sparkling water.", "Garnish with lemon slices and lavender sprigs and serve immediately."]
+    }
+  },
+  {
+    "model": "cocktails.cocktail",
+    "fields": {
+      "name": "Passionfruit Paloma",
+      "image": "https://i.imgur.com/DyOQZSo.jpg",
+      "about": "Looking for a new exciting cocktail? Try this passionfruit paloma. It's slightly sweet, tart, and refreshing.",
+      "serves": 4,
+      "ingredients": {
+        "produce": ["Basil leaves as a garnish", "1 1/3 cups Passion fruit pulp"],
+        "drinks": ["1 cup Sparkling water"],
+        "spirit": ["220 ml Tequila"],
+        "other": ["1/3 cup Agave syrup", "1/4 cup Lime juice", "1 Lime wedge and sea salt", "3 cup ice"]
+      },
+      "recipe": ["In a large pitcher combine tequila, passion fruit pulp, lime juice, and agave syrup. Stir until everything is well incorporated.", "Once you are ready to serve add the ice and the sparkling water. Stir with a wooden spoon.", "Rub a lime wedge around the edge of the glasses and dip them onto a plate filled with sea salt.", "Strain into the glasses filled with ice. Top with a splash or two of sparkling water.", "Pour the Paloma into the glasses and garnish with fresh basil leaves."]
     }
   }
 ]
