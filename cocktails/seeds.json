@@ -94,5 +94,225 @@
       },
       "recipe": ["Add coconut rum, mango and pineapple juices to a cocktail shaker filled halfway with ice. Shake well to combine and chill.", "Pour over ice into a cocktail glass.", "Add coconut cream slowly by pouring over the back of a spoon.", "Add grenadine by pouring slowly over top."]
     }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Gingered Peach Bourbon Thyme Smash",
+      "image":"https://i.imgur.com/NOiatHs.jpg",
+      "about":"Slightly sweet, hinted just lightly with thyme, and kicked up with a little ginger and fizz.",
+      "serves":"2",
+      "ingredients":{
+        "produce":["1 cup fresh ripe peach slices”, “8 sprigs fresh thyme, and more for serving"],
+        "drinks":["1 lemon juice”, “Ginger beer for topping"],
+        "spirit":["120 ml Bourbon"],
+        "other":["2 tablespoons honey, more or less to taste"]
+      },
+      "recipe":[
+        "Heat a grill or grill pan to high and grill the peach slices for 2-3 minutes per side", 
+        "In a cocktail shaker or glass jar, add the peach slices, thyme, lemon juice and honey, using a muddler, muddle all of the ingredients together, squishing everything to release the juices. Add the bourbon and shake to combine.",
+        "Add ice to a glass and pour the drink over the ice (strain if desired). Top the glass with a little more ice and then pour the ginger beer over, gently stirring to combine. Garnish with peaches and thyme."]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Pornstar Martini",
+      "image":"https://i.imgur.com/WwvPDmV.jpg",
+      "about":"This cocktail contains passion fruit, champagne, vanilla vodka, lime juice and sugar syrup. It's super easy to put together!",
+      "serves":"2",
+      "ingredients":{
+        "produce":["1 Passion fruit", "2 Passion fruit 50ml"],
+        "drinks":["50 ml Lime juice", "25 ml Sugar syrup"],
+        "spirit":["100 ml Vanilla vodka"],
+        "other":["50ml Passoa"]
+      },
+      "recipe":[
+        "Halve the passion fruit, scoop the seeds out and place in a sieve over a bowl.",
+        "Use the back of a spoon and press repeatedly on the seeds until all the juice has been extracted. Discard the pips.",
+        "Place a handful of ice into a cocktail shaker and pour the fresh passion fruit puree into the cocktail shaker, along with the lime juice, vanilla vodka, Passoa and sugar syrup.",
+        "Close the cocktail shaker and shake for 30 seconds.",
+        "Divide the mixture between two martini glasses then top up each glass with champagne.",
+        "Decorate each martini glass with half a passion fruit and serve with a shot glass of champagne on the side. Enjoy!"
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Purple Rain Gin Cocktail",
+      "image":"https://i.imgur.com/QdcA1ZL.jpg",
+      "about":"A purple haven of mysteries",
+      "serves":"2",
+      "ingredients":{
+        "produce":["Lime slices"],
+        "drinks":["15ml blue curacao", "15ml lime juice"],
+        "spirit":["50ml gin"],
+        "other":["Soda water"]
+      },
+      "recipe":[
+        "Fill glass with glass with ice.",
+        "Add gin, curacao, lemon and lime",
+        "Stir well and top up with soda.",
+        "Drizzle grenadine over the top then garnish"
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Blackberry Caipiroska",
+      "image":"https://i.imgur.com/9Y0dbH0.jpg",
+      "about":"The Caipiroska is a twist on the popular Caipirinha the national cocktail of Brazil. A simple cocktail made with muddled limes, sugar, vodka and plenty of crushed ice.",
+      "serves":"2",
+      "ingredients":{
+        "produce":["3-4 Blackberries", "1 Lime"],
+        "drinks":["1 tablespoon Sugar Cane Syrup"],
+        "spirit":["50ml Vodka"],
+        "other":["Crushed Ice"]
+      },
+      "recipe":[
+        "Cut the lime into eight wedges and put into an old fashioned glass (a.k.a rocks glass). Add the sugar syrup and use a muddler or the end of a clean rolling pin to pound the limes hard to release the oils from the skin as well as the juice.",
+        "Add 3-5 large blackberries to your glass and muddle them as well to squeeze the vibrant juice out.",
+        "Add the vodka and give everything a good stir. Add crushed ice, stir vigorously and taste your drink. Add more syrup if required.",
+        "Garnish with blackberries and serve."
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Sweet Poison Cocktail",
+      "image":" https://i.imgur.com/TeJ0975.jpg",
+      "about":" Rum cocktail with vibrant colours.",
+      "serves":"2",
+      "ingredients":{
+        "produce":["1 Pineapple wedge"],
+        "drinks":["70ml Pineapple Juice"],
+        "spirit":["60ml Curacao Blue", "60ml Coconut Rum", "30ml Rum Light"],
+        "other":[]
+      },
+      "recipe":[
+        "Combine both rums and Blue Curacao in a cocktail shaker filled with ice. Shake, then pour into a cocktail glass.",
+        "Fill the rest of the glass with chilled pineapple juice. Garnish with a pineapple wedge."
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"1908 Elderflower Sour",
+      "image":"https://i.imgur.com/T7ezJLN.jpg",
+      "about":" A refreshing spin on a gin sour. This cocktail features Empress 1908 gin, freshly squeezed grapefruit juice, St-Germain Elderflower liquor, a homemade butterfly pea syrup and is finished with a frothy egg white foam",
+      "serves":"2",
+      "ingredients":{
+        "produce":["2 Egg whites", "30ml Butterfly pea simple syrup"],
+        "drinks":["60ml Grapefruit juice"],
+        "spirit":["45ml empress 1908 gin"],
+        "other":["45ml St-Germain elderflower liqueur"]
+      },
+      "recipe":[
+        "To a cocktail shaker: add gin, elderflower liqueur, grapefruit juice, syrup and egg white. Fill with ice and shake for 1 minute. Double strain into a tall coupe like glass.",
+        "Serve with dried flowers and grapefruit garnish."
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Spicy Sweet Grinch Cocktail",
+      "image":"https://i.imgur.com/UKbXFTK.jpg",
+      "about":" A touch of sweet and a little bit spicy...perfectly fitting for the Grinch",
+      "serves":"2",
+      "ingredients":{
+        "produce":["20ml  Grapefruit juice", "20ml Lime juice", "1 Jalapeno(sliced)","Fresh mint leaves","handful of pomegranate seeds", "2 tsp Honey"],
+        "drinks":["1 ginger beer"],
+        "spirit":["60ml Vodka"],
+        "other":["2 tsp granulated sugar"]
+      },
+      "recipe":[
+        "On a shallow plate, combine the sugar and mint. Rim your glass in sugar, then fill with ice.",
+        "Combine the vodka, lime juice, grapefruit juice, honey, and jalapeños in a cocktail shaker. Fill with ice and shake until combined, about 1 minute. Strain into your prepared glass. Top with ginger beer and garnish as desired. Enjoy!"
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Honey Thyme Margarita",
+      "image":"https://i.imgur.com/Vyl3X6J.jpg",
+      "about":"A refreshing cocktail for a fall wedding - the Honey Thyme Margarita - a tequila cocktail made with fresh squeezed juices and thyme infused honey.",
+      "serves":"2",
+      "ingredients":{
+        "produce":["6 sprigs of fresh Thyme","30ml Honey thyme syrup", "90ml Lime juice", "20ml honey"],
+        "drinks":["100ml Grapefruit juice"],
+        "spirit":["75ml Silver tequila"],
+        "other":["pinch of sea salt", "45ml Orange liqueur"]
+      },
+      "recipe":[
+        "Fill cocktail shaker with ice. Add tequila, lime juice, grapefruit juice, orange liqueur, and syrup. Shake well until well chilled. Strain into a salt-rimmed serving glass.",
+        "Add water, honey, and thyme to a heavy bottomed saucepan. Bring to a simmer until the honey has dissolved. Remove from heat and let the thyme steep for 30 minutes. Strain out thyme. Transfer syrup to an airtight container and keep at room temperature."
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Shark Attack Punch",
+      "image":"https://i.imgur.com/B0UgcRJ.jpg",
+      "about":"Dive into this visually stunning, and deliciously sweet cocktail that's good with or without alcohol! Impress your guests with this deadly and fun shark themed drink that makes a great mocktail for just about any occasion!",
+      "serves":"7",
+      "ingredients":{
+        "produce":[],
+        "drinks":["1 bottle of sprite soda pop","1 bottle of punch gatorade"],
+        "spirit":["1 bottle of vodka"],
+        "other":["Shark gummies"]
+      },
+      "recipe":[
+        "Fill a glass with ice and shark gummies making sure to disperse the sharks evenly to make them look as though they are swimming.",
+        "Top with even mix of Punch and Sprite (50/50 ratio)",
+        "For the adult version, add the desired amount of vodka for an extra kick to your punch"
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Giggle Juice",
+      "image":"https://i.imgur.com/S07XRE5.jpg",
+      "about":"One part summer, two parts alcohol, ALL parts delicious, my Giggle Juice recipe is the happy-making beverage of choice for this year's hot nights",
+      "serves":"2",
+      "ingredients":{
+        "produce":["2 Lemons", "1 cup of Raspberries", "2 cups of Strawberries"],
+        "drinks":["3 cups of Pink lemonade"],
+        "spirit":["2 cups Lemon vodka", "750ml Mosacato"],
+        "other":["250ml Sprite", "ice", "Granulated sugar"]
+      },
+      "recipe":[
+        "Whisk to dissolve the granulated sugar in the lemon vodka.",
+        "Combine all drink ingredients in a large pitcher. Add Ice.",
+        "Place sugar on a small shallow plate. Rim the glasses with lemon then dip into the sugar.",
+        "Pour into individual glasses and enjoy!"
+      ]
+    }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Creamsicle Prosecco Floats",
+      "image":"https://i.imgur.com/oP0KUOF.jpg",
+      "about":"These Creamsicle Prosecco Floats are reminiscent of a childhood favourite treat, and only require 3 ingredients! They are perfect for brunch with friends, dessert on a warm night, or whenever you want to treat yourself!",
+      "serves":"2",
+      "ingredients":{
+        "produce":["Mint and Orange curls"],
+        "drinks":[],
+        "spirit":["1 bottle prosecco"],
+        "other":["1 scoop orange sherbet","1 scoop Vanilla ice cream"]
+      },
+      "recipe":[
+        "Place the scoops of vanilla ice cream and orange sherbet in a glass. You want something deep because they will foam up quite a bit!",
+        "Top with desired amount of prosecco and garnish with a sprig of mint and an orange curl. Serve immediately!"
+      ]
+    }
   }
 ]
