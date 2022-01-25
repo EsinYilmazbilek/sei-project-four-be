@@ -60,8 +60,6 @@ class CocktailSerializer(serializers.ModelSerializer):
     ''' Serializer for Cocktail '''
     comments = NestedCommentSerializer(many=True, read_only=True)
     saved_by = NestedSaveSerializer(many=True, read_only=True)
-    
-  
 
     class Meta:
         model = Cocktail
