@@ -1,0 +1,9 @@
+[
+  {
+    "model": "jwt_auth.user",
+    "fields": {
+      "email": "admin@email.com",
+      "profile_image": "me.jpeg"
+    }
+  }
+]

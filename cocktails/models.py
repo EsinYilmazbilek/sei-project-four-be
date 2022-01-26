@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.postgres.fields import ArrayField
 # Create your models here.
 
 class Cocktail(models.Model):
@@ -8,9 +8,16 @@ class Cocktail(models.Model):
     image = models.CharField(max_length=200)
     about = models.TextField(max_length=300)
     serves = models.PositiveIntegerField()
-    ingredients = models.CharField(max_length=350)
-    recipe = models.TextField(max_length=1000)
-    
+    ingredients_produce = ArrayField(models.CharField(max_length=400))
+    ingredients_drinks = ArrayField(models.CharField(max_length=400))
+    ingredients_spirit = ArrayField(models.CharField(max_length=400))
+    ingredients_other = ArrayField(models.CharField(max_length=400))
+    recipe = ArrayField(models.TextField(max_length=3000))
+    owner = models.ForeignKey(
+    'jwt_auth.User',
+    related_name='cocktails_posted',
+    on_delete=models.CASCADE
+  )
 
     def __str__(self):
         return f'{self.name}'
