@@ -39,7 +39,7 @@ class NestedCocktailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cocktail
-        fields = ('id', 'name')
+        fields = ('id', 'name', 'image')
 
 
 class NestedCommentSerializer(serializers.ModelSerializer):
