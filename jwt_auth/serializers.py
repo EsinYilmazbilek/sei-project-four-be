@@ -69,4 +69,4 @@ class UserProfileSerializer(serializers.ModelSerializer):
     liked_comment = NestedCommentLikeSerializer(many=True)
     class Meta:
         model = User
-        fields = ('id', 'username', 'comments_posted', 'saved_cocktail', 'liked_comment')
+        fields = ('id', 'username', 'profile_image', 'comments_posted', 'saved_cocktail', 'liked_comment')
