@@ -297,5 +297,26 @@
       ],
       "owner": 1
     }
+  },
+  {
+    "model":"cocktails.cocktail",
+    "fields":{
+      "name":"Juniper + Tangerine Gin Fizz",
+      "image":"https://i.imgur.com/ywSkhfI.jpg?2",
+      "about":"Combined with sweet and tart fresh tangerine juice, an aromatic juniper syrup and some high-quality gin creates a frothy and fizzy fun cocktail!",
+      "serves":"1",
+        "ingredients_produce":["tangerine wedge to garnish", "fresh juniper to garnish", "1 tbsp dried juniper berries, lightly crsuhed", "120ml sparkling water", "1/2 cup water"],
+        "ingredients_drinks":["30ml juniper syrup", "90ml fresh tangerine juice", "30ml fresh lemon juice"],
+        "ingredients_spirit":["240ml Hendricks gin"],
+        "ingredients_other":["2 egg whites room temperature", "1/2 cup granulated suger", "ice"],
+      "recipe":[
+        "In a small saucepan over medium heat, combine the sugar, water, and juniper berries and give it a stir to combine. Cook until sugar dissolves.",
+        "Turn heat off and allow juniper berries to steep until syrup has cooled to room temperature then strain syrup and transfer to a glass bottle or mason jar.",
+        "In a cocktail shaker, combine the gin, syrup, lemon and tangerine juices, and egg white. Place lid on and shake vigorously for about 30 seconds.",
+        "Add ice to the shaker and shake again for about another 2 minutes until shaker is very cold. Strain into a glass.",
+        "Pour sparkling water into the shaker, swirling is around to pick up the rest of the foam and pour it into the glass. Garnish with a sprig of fresh juniper and a tangerine wedge."
+      ],
+      "owner": 1
+    }
   }
 ]
