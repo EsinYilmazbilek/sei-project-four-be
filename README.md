@@ -10,6 +10,8 @@ My final dev project for the Software Engineering Immersive course, a complex fu
 
 Honey & Thyme is a Pinterest clone app for cocktails. A pair project built over 7 days, it consists of a landing page where users need to sign in or register, an index page with a search bar where users can click on a cocktail card, a show page for the clicked cocktail where users can leave comments and save the cocktail onto their profile. Users can also go to their profile page where they can review their saved cocktails.
 
+![](screenshots/home_page.png)
+
 Please note that user authentication is required, anyone interested in viewing the app is welcome to use these credentials:
 Email: betty@email
 Password: pass
